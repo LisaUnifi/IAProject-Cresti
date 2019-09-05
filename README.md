@@ -1,7 +1,7 @@
 # IAProject-Cresti
 Project for Artificial Intelligence exam:
 
-- Open folder named "Code"
+- Open the folder named "Code"
 - Open "lesson-schedule.mzn" 
 - Include one data file between "12-lesson.dzn", "20-lesson.dzn" or "constant-values.dzn"
 - Choose the solver between "solve satisfy" or "solve minimize"
