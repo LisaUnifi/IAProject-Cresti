@@ -1,0 +1,25 @@
+int: d = 5; %number of days of the week
+int: n = 4; %number of rooms
+int: am = 5; %number of morning's hours 
+int: pm = 5; %number of afternoon's hours
+int: k = 4; %number of degree courses
+int: p = 8; %numero of professors 
+int: t1 = 2; %minimum number of hours of the same lesson
+int: t2 = 3; %maximum number of hours of the same lesson
+
+day = ["Monday    ", "Tuesday   ", "Wednesday ", "Thursday  ", "Friday    "];
+room = [" 001", " 002", " 003", " 004"];
+amhour = [" 8:00", " 9:00", "10:00", "11:00", "12:00"];
+pmhour = ["14:00", "15:00", "16:00", "17:00", "18:00"];
+course = ["A", "B", "C", "D"];
+m = [6, 4, 6, 4];
+professor = ["profA", "profB", "profC", "profD", "profE", "profF", "profG", "profH"];
+H = [5, 3, 5, 3, 5, 3, 3, 5];
+C = [3, 2, 3, 2, 2, 2, 3, 3];
+lesson = ["t1         ", "t2         ", "t3         ", "t4         ", "t5         ", "t6         ", "t7         ", "t8         ", "t9         ", "t10        ", "t11        ", "t12        ", "t13        ", "t14        ", "t15        ", "t16        ", "t17        ", "t18        ", "t19        ", "t20        "];
+h = [5, 5, 5, 5, 5, 7, 7, 5, 3, 5, 5, 7, 5, 5, 5, 7, 5, 5, 5, 5];
+
+%the number of the row corresponds to the professor and the values inside the row to the lessons teached by each professor
+profLes = [| 4, 13, 19| 6, 11, 0| 1, 5, 14| 12, 18, 0| 7, 17, 0| 2, 16, 0| 8, 9, 10| 3, 15, 20|];
+%the number of the row corresponds to the degree course and the values inside the row to the lessons in each course
+courseLes = [| 1, 6, 7, 10, 16, 17| 4, 9, 12, 20, 0, 0| 2, 3, 8, 13, 14, 15| 5, 11, 18, 19, 0, 0|];
